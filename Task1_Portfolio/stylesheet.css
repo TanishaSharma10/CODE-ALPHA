@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: #ededed;
+    background: #001e47;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #010533e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+
+
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+
+.navbar a:hover {
+    color: #8ef;
+
+
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    background: url(/Task1_Portfolio/bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content {
+    margin-bottom: 50px;
+    max-width: 600px;
+    color: white;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+
+
+}
+
+
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: rgb(152, 235, 250);
+
+
+}
+
+.home-content p {
+    padding-top: 10px;
+    font-size: 20px;
+
+
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(152, 235, 250);
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(152, 235, 250);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover {
+    background: blanchedalmond;
+    color: #001e47;
+
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 35px;
+    background: white;
+    border-radius: 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid: 1.5rem;
+}
+
+.about-img img {
+    padding-bottom: 20px;
+    margin-left: 100px;
+    border-radius: 70px;
+
+}
+
+
+
+.about-text h2 {
+    font-size: 60px;
+     padding-bottom: 10px;
+     color: rgb(152, 235, 250);
+}
+
+.about-text h2 span {
+    color: white;
+    font-weight: 600;
+    color: white;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+.about-text h4 {
+    font-size: 30px;
+
+}
+
+.about-text p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+#services {
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.skills {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 40px;
+    color:rgb(152, 235, 250);
+}
+
+.skills span {
+    color: white;
+}
+
+.container {
+    padding: 90px;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px rgb(8, 221, 236),
+        1px 1px 40px whitesmoke;
+
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div:hover {
+    transform: translateY(-10px);
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1{
+    width: 600px;
+    padding: 75px 90px;
+    margin-left: 60px;
+    
+}
+.heading1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px ;
+    margin-bottom: 50px;
+}
+.bar{
+    font-size: 23px;
+}
+.Technical-bars .bar{
+    margin-top: 40px 0;
+}
+.Technical-bars .bar:first-child{
+    margin-top: 0;
+}
+.Technical-bars .bar:last-child{
+    margin-bottom: 0;
+}
+.Technical-bars .bar .info{
+    margin-bottom: 5px;
+}
+.Technical-bars .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+.Technical-bars .bar .progress-line{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+
+.Technical-bars .bar .progress-line span{
+    height: 100%;
+    background-color: rgb(8, 221, 236);
+    position: absolute;
+    border-radius: 10px;
+   
+
+}
+.progress-line.html span{
+    width:90%
+}
+.progress-line.css span{
+    width:75%
+}
+.progress-line.Javascript span{
+    width:70%
+}
+.progress-line.java span{
+    width:80%
+}
+.progress-line.cpp span{
+    width:50%
+}
+.progress-line.data span{
+    width:60%
+}
+
+.progress-line span::after{
+    position: absolute;
+    padding: 1px 8px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+    
+}
+
+
+.container2{
+    width:600px;
+    padding-top: 500px;
+    padding: 0px 90px;
+    margin-left: 700px;
+    position:relative;
+    top: -545px;
+
+    
+}
+.heading2{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px ;
+    margin-bottom: 50px;
+   
+}
+.Tech-bars .bar{
+    margin-top: 50px 0;
+}
+.Tech-bars .bar:first-child{
+    margin-top: 0;
+}
+.Tech-bars .bar:last-child{
+    margin-bottom: 0;
+}
+.Tech-bars .bar .info{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.Techn-bars .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+    
+    
+}
+.Tech-bars .bar .progress-line{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    margin-top: 20px;
+    
+}
+
+
+
+.Tech-bars .bar .progress-line span{
+    height: 100%;
+    background-color: rgb(8, 221, 236);
+    position: absolute;
+    border-radius: 10px;
+    
+
+}
+.progress-line.confidence span{
+    width:98%
+}
+.progress-line.creativity span{
+    width:95%
+}
+.progress-line.leadership span{
+    width:98%
+}
+.progress-line.oration span{
+    width:95%
+}
+.progress-line.prob span{
+    width:92%
+}
+.progress-line.proj span{
+    width:94%
+}
+
+.progress-line span::after{
+    position: absolute;
+    padding: 1px 8px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+}
+
+ 
